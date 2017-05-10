@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA002D711EC1A62500EF771C /* images2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA002D701EC1A62500EF771C /* images2.jpg */; };
+		FA002D731EC1A63600EF771C /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA002D721EC1A63600EF771C /* images.jpg */; };
+		FA002D751EC1A96700EF771C /* ICC_sim_finalUI_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA002D741EC1A96700EF771C /* ICC_sim_finalUI_2x.png */; };
+		FA002D771EC1AB1800EF771C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA002D761EC1AB1800EF771C /* RatingControl.swift */; };
 		FADDBC8C1EC0842B0053F456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBC8B1EC0842B0053F456 /* AppDelegate.swift */; };
 		FADDBC8E1EC0842B0053F456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBC8D1EC0842B0053F456 /* ViewController.swift */; };
 		FADDBC911EC0842B0053F456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADDBC8F1EC0842B0053F456 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA002D701EC1A62500EF771C /* images2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images2.jpg; path = ../../../../../../Desktop/images2.jpg; sourceTree = "<group>"; };
+		FA002D721EC1A63600EF771C /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../../../../../../Desktop/images.jpg; sourceTree = "<group>"; };
+		FA002D741EC1A96700EF771C /* ICC_sim_finalUI_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICC_sim_finalUI_2x.png; path = ../../../../../../Downloads/ICC_sim_finalUI_2x.png; sourceTree = "<group>"; };
+		FA002D761EC1AB1800EF771C /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		FADDBC881EC0842B0053F456 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADDBC8B1EC0842B0053F456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADDBC8D1EC0842B0053F456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,9 +87,13 @@
 			children = (
 				FADDBC8B1EC0842B0053F456 /* AppDelegate.swift */,
 				FADDBC8D1EC0842B0053F456 /* ViewController.swift */,
+				FA002D761EC1AB1800EF771C /* RatingControl.swift */,
 				FADDBC8F1EC0842B0053F456 /* Main.storyboard */,
 				FADDBC921EC0842B0053F456 /* Assets.xcassets */,
 				FADDBC941EC0842B0053F456 /* LaunchScreen.storyboard */,
+				FA002D741EC1A96700EF771C /* ICC_sim_finalUI_2x.png */,
+				FA002D721EC1A63600EF771C /* images.jpg */,
+				FA002D701EC1A62500EF771C /* images2.jpg */,
 				FADDBC971EC0842B0053F456 /* Info.plist */,
 			);
 			path = FoodTracker;
@@ -179,8 +191,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA002D751EC1A96700EF771C /* ICC_sim_finalUI_2x.png in Resources */,
 				FADDBC961EC0842B0053F456 /* LaunchScreen.storyboard in Resources */,
+				FA002D731EC1A63600EF771C /* images.jpg in Resources */,
 				FADDBC931EC0842B0053F456 /* Assets.xcassets in Resources */,
+				FA002D711EC1A62500EF771C /* images2.jpg in Resources */,
 				FADDBC911EC0842B0053F456 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADDBC8E1EC0842B0053F456 /* ViewController.swift in Sources */,
+				FA002D771EC1AB1800EF771C /* RatingControl.swift in Sources */,
 				FADDBC8C1EC0842B0053F456 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +422,7 @@
 				FADDBCA71EC0842B0053F456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FADDBCA81EC0842B0053F456 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +431,7 @@
 				FADDBCAA1EC0842B0053F456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
